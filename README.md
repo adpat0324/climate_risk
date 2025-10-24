@@ -40,6 +40,7 @@ climate_risk/
 3. **Configure data access**
    * Request a NOAA API token and set it as the `NOAA_TOKEN` environment variable when running the notebook.
    * Identify the USGS site and NOAA station IDs for the region of interest.
+   * GHCND station identifiers are detected automatically; the loader switches to the `GHCND/PRCP` daily dataset unless you override `NOAAConfig`.
 
 ## Notebook Workflow
 
